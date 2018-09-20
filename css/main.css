@@ -1330,6 +1330,43 @@ th {
 .im-git:before {
   content: '\e12c'; }
 
+.menu-right {
+  position: absolute;
+  width: 255px;
+  right: 10%;
+  top: 100px; }
+  .menu-right .wrapper-topics {
+    margin-bottom: 50px; }
+    .menu-right .wrapper-topics li {
+      color: #a7a7a7;
+      margin-bottom: 7px;
+      font-size: 12px; }
+      .menu-right .wrapper-topics li:first-child {
+        color: black;
+        font-weight: bold;
+        border-bottom: 1px solid #a7a7a7;
+        padding-bottom: 6px;
+        margin-bottom: 18px; }
+  .menu-right .wrapper-popular li button {
+    display: inline-flex; }
+    .menu-right .wrapper-popular li button p {
+      color: black;
+      font-size: 15px;
+      font-weight: bold; }
+    .menu-right .wrapper-popular li button img {
+      width: 60px;
+      height: 60px; }
+  .menu-right .wrapper-popular li .read {
+    font-size: 12px;
+    color: #a7a7a7;
+    margin-top: -10px; }
+  .menu-right .wrapper-popular li:first-child {
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 6px;
+    margin-bottom: 18px; }
+
 .general-container {
   position: absolute;
   left: 0;
@@ -1381,3 +1418,7 @@ th {
       .header .header-container .toolbar i {
         font-size: 18px;
         margin-right: 18px; }
+
+.main-container {
+  position: relative;
+  width: 100vw; }
