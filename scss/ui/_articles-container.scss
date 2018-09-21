@@ -1,0 +1,35 @@
+
+.articles-container {
+    position: absolute;
+    left: 10%;
+    top: 95px;
+
+    .follow {
+        display: inline-flex;
+        margin-bottom: 13px;
+
+        button {
+            margin-top: 9px;
+            height: 30px;
+            width: 79px;
+            background-color: black;
+            border-radius: 4px;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        h2 {
+            font-size: 27px;
+            font-weight: bold;
+            margin-right: 18px;
+            margin-top: 5px;
+            letter-spacing: -1px;
+        }
+    }
+    .dowload {
+        color: $dark-grey;
+        font-size: 14px;
+    }
+
+}

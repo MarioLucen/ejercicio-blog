@@ -1330,6 +1330,32 @@ th {
 .im-git:before {
   content: '\e12c'; }
 
+.articles-container {
+  position: absolute;
+  left: 10%;
+  top: 95px; }
+  .articles-container .follow {
+    display: inline-flex;
+    margin-bottom: 13px; }
+    .articles-container .follow button {
+      margin-top: 9px;
+      height: 30px;
+      width: 79px;
+      background-color: black;
+      border-radius: 4px;
+      color: white;
+      text-align: center;
+      font-size: 12px; }
+    .articles-container .follow h2 {
+      font-size: 27px;
+      font-weight: bold;
+      margin-right: 18px;
+      margin-top: 5px;
+      letter-spacing: -1px; }
+  .articles-container .dowload {
+    color: #3f3f3f;
+    font-size: 14px; }
+
 .menu-right {
   position: absolute;
   width: 255px;
@@ -1401,7 +1427,8 @@ th {
       font-weight: bold;
       position: absolute;
       left: 50%;
-      transform: translate3d(-50%, -10%, 0); }
+      transform: translate3d(-50%, -10%, 0);
+      letter-spacing: -2px; }
     .header .header-container .toolbar {
       position: absolute;
       right: 10%;
