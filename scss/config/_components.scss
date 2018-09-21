@@ -1,0 +1,33 @@
+
+.read {
+    font-size: 12px;
+    color: $grey;
+    margin-top: -10px; 
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    // border-radius: 0%;
+} 
+
+.writer-content {
+    display: inline-flex;
+    height: 85px;
+    position: absolute;
+    top: 68px;
+    left: 450px;
+
+    p:first-child {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 16px;
+        margin-left: 10px;
+    }
+
+    .read {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+}
+

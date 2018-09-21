@@ -1,0 +1,39 @@
+
+.writer-box {
+    position: absolute;
+    height: 300px;
+    left: 9%;
+    right: 34%;
+    background-color: $light-grey;
+    top: 200px;
+    padding: 30px;
+    
+    h3 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .writer {
+        display: inline-flex;
+        margin-top: 20px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .img-perfil {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        } 
+
+        .writer-description {
+            margin-left: 20px;
+            width: 234px;
+            margin-right: 15px;
+            
+        }
+    }
+}
