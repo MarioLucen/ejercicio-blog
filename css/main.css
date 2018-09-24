@@ -1331,7 +1331,7 @@ th {
   content: '\e12c'; }
 
 .read {
-  font-size: 12px;
+  font-size: 14px;
   color: #a7a7a7;
   margin-top: -10px; }
 
@@ -1354,14 +1354,14 @@ img {
     margin-left: 10px;
     margin-top: 2px; }
 
-.articles-container {
+.article-container {
   position: absolute;
   left: 10%;
   top: 95px; }
-  .articles-container .follow {
+  .article-container .follow {
     display: inline-flex;
     margin-bottom: 13px; }
-    .articles-container .follow button {
+    .article-container .follow button {
       margin-top: 9px;
       height: 30px;
       width: 79px;
@@ -1370,13 +1370,13 @@ img {
       color: white;
       text-align: center;
       font-size: 12px; }
-    .articles-container .follow h2 {
+    .article-container .follow h2 {
       font-size: 27px;
       font-weight: bold;
       margin-right: 18px;
       margin-top: 5px;
       letter-spacing: -1px; }
-  .articles-container .dowload {
+  .article-container .dowload {
     color: #3f3f3f;
     font-size: 14px; }
 
@@ -1498,12 +1498,39 @@ img {
       width: 234px;
       margin-right: 15px; }
 
-.articles {
+.container-post {
+  position: relative; }
+
+.article {
   position: absolute;
   left: 10%;
   right: 34%;
   height: 120px;
-  top: 540px; }
-  .articles .img-article {
+  top: 540px;
+  display: inline-flex; }
+  .article .img-article {
     width: 150px;
     height: 100px; }
+  .article .text-article p:first-child {
+    font-size: 16px;
+    font-weight: bold; }
+  .article .text-article .read {
+    margin-bottom: 12px;
+    margin-top: 12px; }
+  .article .text-article .read-information {
+    display: inline-flex; }
+    .article .text-article .read-information p {
+      font-size: 14px;
+      font-weight: 200; }
+    .article .text-article .read-information .im-star {
+      font-size: 12px;
+      color: #a7a7a7;
+      margin-left: 10px;
+      margin-top: 4px;
+      margin-right: 10px; }
+    .article .text-article .read-information .im-bookmark {
+      position: absolute;
+      font-size: 18px;
+      right: 168px; }
+    .article .text-article .read-information .read {
+      margin-top: 0px; }
