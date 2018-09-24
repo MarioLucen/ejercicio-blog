@@ -1499,38 +1499,44 @@ img {
       margin-right: 15px; }
 
 .container-post {
-  position: relative; }
-
-.article {
-  position: absolute;
-  left: 10%;
-  right: 34%;
-  height: 120px;
-  top: 540px;
-  display: inline-flex; }
-  .article .img-article {
-    width: 150px;
-    height: 100px; }
-  .article .text-article p:first-child {
-    font-size: 16px;
-    font-weight: bold; }
-  .article .text-article .read {
-    margin-bottom: 12px;
-    margin-top: 12px; }
-  .article .text-article .read-information {
-    display: inline-flex; }
-    .article .text-article .read-information p {
-      font-size: 14px;
-      font-weight: 200; }
-    .article .text-article .read-information .im-star {
-      font-size: 12px;
-      color: #a7a7a7;
-      margin-left: 10px;
-      margin-top: 4px;
+  position: relative;
+  top: 10px;
+  left: 0%;
+  width: 80%;
+  top: 540px; }
+  .container-post .article {
+    position: relative;
+    left: 10%;
+    width: 750px;
+    height: 120px;
+    display: inline-flex;
+    margin-bottom: 25px; }
+    .container-post .article .img-article {
+      width: 150px;
+      height: 100px; }
+    .container-post .article .text-article {
+      width: 590px;
       margin-right: 10px; }
-    .article .text-article .read-information .im-bookmark {
-      position: absolute;
-      font-size: 18px;
-      right: 168px; }
-    .article .text-article .read-information .read {
-      margin-top: 0px; }
+      .container-post .article .text-article p:first-child {
+        font-size: 16px;
+        font-weight: bold; }
+      .container-post .article .text-article .read {
+        margin-bottom: 12px;
+        margin-top: 12px; }
+      .container-post .article .text-article .read-information {
+        display: inline-flex; }
+        .container-post .article .text-article .read-information p {
+          font-size: 14px;
+          font-weight: 200; }
+        .container-post .article .text-article .read-information .im-star {
+          font-size: 12px;
+          color: #a7a7a7;
+          margin-left: 10px;
+          margin-top: 4px;
+          margin-right: 10px; }
+        .container-post .article .text-article .read-information .im-bookmark {
+          position: absolute;
+          font-size: 18px;
+          right: 168px; }
+        .container-post .article .text-article .read-information .read {
+          margin-top: 0px; }
